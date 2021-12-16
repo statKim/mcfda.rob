@@ -2,12 +2,13 @@ Package: mcfda.rob
 Type: Package
 Title: Robust mean and covariance estimation for incomplete functional data via robust local linear smoothing
 Version: 0.1.0
-Date: 2021-04-17
+Date: 2021-12-16
 Authors@R: c(person("Hyunsung", "Kim", role = c("aut","cre"), 
                     email = "hyunsung1021@gmail.com"))
 Maintainer: Hyunsung Kim <hyunsung1021@gmail.com>
-Description: Robust modification of the R package mcfda via M-type local linear smoothing
-    Use four spaces when indenting paragraphs within the Description.
+Description: Robust modification of the R package mcfda via M-type local linear smoothing (Not complete version)
+    To use this package, you require an additional package "robfpca".
+    You can also download using the command 'devtools::install_github("statKim/robfpca")'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -28,6 +29,7 @@ Imports:
     foreach,
     pracma,
     refund,
-    fields
+    fields,
+    robfpca
 Suggests: 
     GA
